@@ -26,7 +26,8 @@ git clone https://github.com/suwani123/demo-azure-app-html.git
 - change the project folder
 cd demo-azure-app-html
 -- Create the azure app service 
-az webapp up --location <myLocation> --name <myAppName> --html
+    az webapp up --location <myLocation> --name <myAppName> --html
+    (e.g. az webapp up --location eastasia --name demoapphtml --html)
 - Refer the below command to clean up resources
   az group delete --name <resource_group> --no-wait
   
