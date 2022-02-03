@@ -21,7 +21,13 @@ This sample demonstrates a tiny Hello World HTML app for [App Service](https://d
 mkdir htmlapp
 cd htmlapp
 --
-
+- Clone the app from the repository
+git clone https://github.com/Azure-Samples/html-docs-hello-world.git
+- change the project folder
+cd html-docs-hello-world
+-- Create the azure app service 
+az webapp up --location <myLocation> --name <myAppName> --html
+  
 # Contributing
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
