@@ -19,7 +19,6 @@ This sample demonstrates a tiny Hello World HTML app for [App Service](https://d
 - Create a folder 
 ---
 mkdir htmlapp
-
 cd htmlapp
 --
 
