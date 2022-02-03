@@ -13,7 +13,7 @@ products:
 
 This sample demonstrates a tiny Hello World HTML app for [App Service](https://docs.microsoft.com/azure/app-service).
 
-#App service (demo-azure-app-html) deply via CLI command
+# App service (demo-azure-app-html) deply via CLI command
 - Login to Azure Portal
 - Open azure bash environment
 - Create a folder 
@@ -22,9 +22,9 @@ mkdir htmlapp
 cd htmlapp
 --
 - Clone the app from the repository
-git clone https://github.com/Azure-Samples/html-docs-hello-world.git
+git clone https://github.com/suwani123/demo-azure-app-html.git
 - change the project folder
-cd html-docs-hello-world
+cd demo-azure-app-html
 -- Create the azure app service 
 az webapp up --location <myLocation> --name <myAppName> --html
   
